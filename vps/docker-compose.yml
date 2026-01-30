@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  tunnel_server:
+    image: tooco/blackbridge-vps:latest
+    container_name: vps-tunnel
+    restart: always
+    network_mode: host

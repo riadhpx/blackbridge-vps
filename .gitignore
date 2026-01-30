@@ -1,0 +1,17 @@
+# Configuration
+config.json
+vps_config.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
